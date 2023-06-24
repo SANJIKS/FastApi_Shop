@@ -4,7 +4,7 @@ from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker
 
 
 class Settings(BaseSettings):
-    bd_url: str = "postgresql+asyncpg://user:password@data_base:5432/your_database"
+    bd_url: str = "postgresql+asyncpg://user:password@data_base:5432/database_name"
 
 
     class Config:
